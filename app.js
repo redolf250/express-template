@@ -9,6 +9,6 @@ const app = express();
 
 app.use(express.json());
 app.use(compression());
-app.use('/sample',sampleRoute,indexValidator,indexInterceptor);
+app.use('/sample',sampleRoute,indexValidator,indexInterceptor,indexController);
 
 module.exports = app
