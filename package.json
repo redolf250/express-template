@@ -13,6 +13,7 @@
     "compression": "^1.7.4",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
+    "log4js": "^6.9.1",
     "mongoose": "^8.3.4"
   },
   "devDependencies": {
