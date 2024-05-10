@@ -10,7 +10,7 @@ const db = mongoose.connection;
 
 db.once('open', () => {
   app.listen((process.env.PORT || 4000),()=>logInfo(`Server listening on port ${process.env.PORT}`))
-  logInfo(`http://localhost:${process.env.PORT || 4000}`);
+  logInfo(`http://localhost/sample/:${process.env.PORT || 4000}`);
 });
 
 db.on('error', (error) => {
