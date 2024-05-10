@@ -2,4 +2,4 @@
 
 
 ### Flow Diagram
-![Image] (https://github.com/redolf250/express-template/blob/main/template.png)
+![Flow](https://github.com/redolf250/express-template/blob/main/template.png)
