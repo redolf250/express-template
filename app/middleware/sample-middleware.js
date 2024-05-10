@@ -1,5 +1,7 @@
+const  {logInfo} = require('./../utils/logging/winston-logging')
+
 const indexInterceptor = (req, res, next) => {
-    console.info("Executing  in sample middleware")
+    logInfo("Executing in sample middleware")
     next()
 }
 

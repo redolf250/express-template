@@ -1,5 +1,7 @@
+const {logInfo} = require('./../utils/logging/winston-logging')
+
 const indexValidator = (req, res, next) => {
-    console.info("Executing in sample validation")
+    logInfo("Executing in sample validation")
     next()
 }
 
