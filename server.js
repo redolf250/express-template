@@ -16,7 +16,7 @@ const db = mongoose.connection;
 db.once('open', () => {
   logInfo(`Active environment: ${process.env.NODE_ENV}`);
   app.listen((process.env.PORT || 4000),()=>logInfo(`Server listening on port ${process.env.PORT}`))
-  logInfo(`http://localhost/sample/:${process.env.PORT || 4000}`);
+  logInfo(`http://localhost:${process.env.PORT || 4000}/sample`);
 });
 
 db.on('error', (error) => {

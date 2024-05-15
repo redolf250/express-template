@@ -1,4 +1,4 @@
-const  {logDebug,logError} = require('./../utils/logging/winston-logging')
+const  {logInfo,logError} = require('./../utils/logging/winston-logging')
 const {someServiceMethod} = require('../services/sample-service');
 
 const indexController = async (req, res) => {
@@ -7,7 +7,7 @@ const indexController = async (req, res) => {
         // Call the service method
         const result = await someServiceMethod(req);
         // res.json(result);
-        logDebug("Executing in sample controller...");
+        logInfo("Executing in sample controller...");
       } catch (error) {
         logError(error);
         // res.status(500).json({ message: 'Internal Server Error' });
