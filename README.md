@@ -9,6 +9,7 @@ This repository contains an Express template for building Node.js applications. 
 Prerequisites
 - Node.js (version 12.x or higher)
 - npm (version 6.x or higher)
+- MongoDB
 
 `git clone https://github.com/redolf250/express-template.git`
 `cd express-template`
