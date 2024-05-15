@@ -34,10 +34,10 @@ This will run the application with configurations set for testing. This mode is 
 ### Scripts
 The following npm scripts are available:
 
-`npm start: Alias for npm run prod. Runs the application in production mode.`
-`npm run dev: Runs the application in development mode using nodemon.`
-`npm run prod: Runs the application in production mode using node.`
-`npm run testing: Runs the application in a test environment.`
+- `npm start: Alias for npm run prod. Runs the application in production mode.`
+- `npm run dev: Runs the application in development mode using nodemon.`
+- `npm run prod: Runs the application in production mode using node.`
+- `npm run testing: Runs the application in a test environment.`
 
 #### Configuration
 Configuration for different environments can be managed using environment variables. You can create .env files for each environment (.env.development, .env.production, .env.testing) and load them using a package like dotenv.
